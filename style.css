@@ -1,0 +1,114 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 5vh;
+  display: flex;
+  position: fixed;
+  background-color: rgb(54, 3, 78);
+  color: antiquewhite;
+  padding: 6px;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  font-size: 40px;
+}
+ul {
+  background-color: rgb(54, 3, 78);
+  color: rgb(249, 241, 9);
+  padding: none;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+  border-color: black;
+  color: rgb(251, 255, 0);
+  font-size: 150px;
+  border: solid 16rem rgba(0, 0, 0, 0.388);
+  text-shadow: black;
+  padding: none;
+}
+h2 {
+  font-size: 80px;
+  text-align: center;
+  border: solid black;
+  color: yellow;
+  background-color: purple;
+}
+h3 {
+  color: rgb(0, 26, 255);
+  font-size: 80px;
+  text-shadow: black;
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+}
+
+p {
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: start;
+  color: rgb(233, 225, 225);
+  font-size: 30px;
+}
+
+img {
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+  background-color: rgb(54, 3, 78);
+}
+div {
+  border: solid black;
+}
+
+/* .albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+} */
+.button {
+  width: 100vw;
+  font-size: 50px;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+#buttonpad {
+  padding: 10px;
+  font-size: 100px;
+}
+.buttons {
+  text-decoration: none;
+  width: 50vw;
+  text-align: center;
+  font-size: 50px;
+  color: purple;
+  background-color: yellow;
+}
+.flexwrap {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.biggerfont {
+  font-size: 80px;
+}
